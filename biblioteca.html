@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCO Guide Book - Biblioteca</title>
+    <link rel="stylesheet" href="bibliotecaStyle.css">
+</head>
+
+<body>
+    <!-- INICIO DO HEADER -->
+    <div class="header">
+        <div class="conteiner">
+            <h1>CCO Guide Book</h1>
+            <ul>
+
+                <li>
+                    <a href="">Analytics</a>
+                </li>
+
+                <li>
+                    <a href="">Questionário</a>
+                </li>
+
+                <li>
+                    <a href="C:\Users\kevyn\OneDrive\Documentos\ProjetoIndividual\Estrutura do Site\feedback.html">Feedbacks</a>
+                </li>
+
+                <li>
+                    <a class="selecionado" href="">Biblioteca</a>
+                </li>
+
+                <li>
+                    <a href="C:\Users\kevyn\OneDrive\Documentos\ProjetoIndividual\Estrutura do Site\login.html">Login</a>
+                </li>
+
+                <li>
+                    <a
+                        href="C:\Users\kevyn\OneDrive\Documentos\ProjetoIndividual\Estrutura do Site\cadastro.html">Cadastro</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- FIM DO HEADER -->
+    <!-- COMECO DO BANNER -->
+
+    <div class="banner">
+        <div class="listaMaterias">
+            <h2>Selecione a Matéria</h2>
+            <button id="AL" onclick="exibirAlgoritmo()">Algoritmos</button><br>
+            <button id="PI" onclick="exibirPI()">Pesquisa e Inovação</button><br>
+            <button id="BD" onclick="exibirBD()">Banco de Dados</button><br>
+            <button id="AQ" onclick="exibir_ArqComp()">Arquitetura Computacional</button><br>
+            <button id="SE" onclick="exibirSocio()">Socioemocional</button><br>
+            <button id="TI" onclick="exibirTI()">Tecnologia da Informação</button><br>
+        </div>
+
+        <div class="painelTopicos">
+            <!-- Aqui dentro será adicionado as divs que armazenarão cada livro sobre tal conteúdo da matéria X -->
+        </div>
+    </div>
+
+    <!-- FIM DO BANNER -->
+    <!-- INICIO DO FOOTER -->
+
+    <div class="footer">
+        &bigstar; <span>Site criado para auxiliar os professores a saberem quais são as dificuldades da turma de CCO e
+            feito também para sanar as nossas dúvidas!</span> &bigstar;
+    </div>
+
+    <!-- FIM DO FOOTER -->
+
+</body>
+
+</html>
+
+<script>
+    function exibirAlgoritmo() {
+        PI.style = "background-color:#5cb6ff"
+        BD.style = "background-color:#5cb6ff"
+        AQ.style = "background-color:#5cb6ff"
+        SE.style = "background-color:#5cb6ff"
+        TI.style = "background-color:#5cb6ff"
+        AL.style = "background-color:#7ac3ff;"
+    }
+
+    function exibirPI() {
+        PI.style = "background-color:#7ac3ff"
+        BD.style = "background-color:#5cb6ff"
+        AQ.style = "background-color:#5cb6ff"
+        SE.style = "background-color:#5cb6ff"
+        TI.style = "background-color:#5cb6ff"
+        AL.style = "background-color:#5cb6ff;"
+    }
+
+    function exibirBD() {
+        PI.style = "background-color:#5cb6ff"
+        BD.style = "background-color:#7ac3ff"
+        AQ.style = "background-color:#5cb6ff"
+        SE.style = "background-color:#5cb6ff"
+        TI.style = "background-color:#5cb6ff"
+        AL.style = "background-color:#5cb6ff;"
+    }
+
+    function exibir_ArqComp() {
+        PI.style = "background-color:#5cb6ff"
+        BD.style = "background-color:#5cb6ff"
+        AQ.style = "background-color:#7ac3ff"
+        SE.style = "background-color:#5cb6ff"
+        TI.style = "background-color:#5cb6ff"
+        AL.style = "background-color:#5cb6ff;"
+    }
+
+    function exibirSocio() {
+        PI.style = "background-color:#5cb6ff"
+        BD.style = "background-color:#5cb6ff"
+        AQ.style = "background-color:#5cb6ff"
+        SE.style = "background-color:#7ac3ff"
+        TI.style = "background-color:#5cb6ff"
+        AL.style = "background-color:#5cb6ff;"
+    }
+
+    function exibirTI() {
+        PI.style = "background-color:#5cb6ff"
+        BD.style = "background-color:#5cb6ff"
+        AQ.style = "background-color:#5cb6ff"
+        SE.style = "background-color:#5cb6ff"
+        TI.style = "background-color:#7ac3ff"
+        AL.style = "background-color:#5cb6ff;"
+    }
+</script>
